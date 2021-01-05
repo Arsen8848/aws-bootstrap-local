@@ -1,0 +1,272 @@
+{
+    "StackEvents": [
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "d227c530-4d7b-11eb-bee2-0eef46d08d13",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "awsbootstraplocal",
+            "PhysicalResourceId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2021-01-03T04:26:16.687000+00:00",
+            "ResourceStatus": "ROLLBACK_COMPLETE"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceRole-DELETE_COMPLETE-2021-01-03T04:26:15.527Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceRole",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceRole-4MADEI47NRH5",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2021-01-03T04:26:15.527000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/CloudWatchFullAccess\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}},\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceRole-DELETE_IN_PROGRESS-2021-01-03T04:26:13.823Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceRole",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceRole-4MADEI47NRH5",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2021-01-03T04:26:13.823000+00:00",
+            "ResourceStatus": "DELETE_IN_PROGRESS",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/CloudWatchFullAccess\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}},\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceProfile-DELETE_COMPLETE-2021-01-03T04:26:12.938Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceProfile",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R",
+            "ResourceType": "AWS::IAM::InstanceProfile",
+            "Timestamp": "2021-01-03T04:26:12.938000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"Roles\":[\"awsbootstraplocal-InstanceRole-4MADEI47NRH5\"]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "SecurityGroup-DELETE_COMPLETE-2021-01-03T04:26:12.790Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "SecurityGroup",
+            "PhysicalResourceId": "awsbootstraplocal-SecurityGroup-1RPKSIR0SKDJY",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "Timestamp": "2021-01-03T04:26:12.790000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"GroupDescription\":\"Internal Security group for awsbootstraplocal\",\"SecurityGroupIngress\":[{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"8080\",\"ToPort\":\"8080\",\"IpProtocol\":\"tcp\"},{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"22\",\"ToPort\":\"22\",\"IpProtocol\":\"tcp\"}],\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "SecurityGroup-DELETE_IN_PROGRESS-2021-01-03T04:26:11.507Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "SecurityGroup",
+            "PhysicalResourceId": "awsbootstraplocal-SecurityGroup-1RPKSIR0SKDJY",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "Timestamp": "2021-01-03T04:26:11.507000+00:00",
+            "ResourceStatus": "DELETE_IN_PROGRESS",
+            "ResourceProperties": "{\"GroupDescription\":\"Internal Security group for awsbootstraplocal\",\"SecurityGroupIngress\":[{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"8080\",\"ToPort\":\"8080\",\"IpProtocol\":\"tcp\"},{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"22\",\"ToPort\":\"22\",\"IpProtocol\":\"tcp\"}],\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceProfile-DELETE_IN_PROGRESS-2021-01-03T04:26:11.370Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceProfile",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R",
+            "ResourceType": "AWS::IAM::InstanceProfile",
+            "Timestamp": "2021-01-03T04:26:11.370000+00:00",
+            "ResourceStatus": "DELETE_IN_PROGRESS",
+            "ResourceProperties": "{\"Roles\":[\"awsbootstraplocal-InstanceRole-4MADEI47NRH5\"]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "Instance-DELETE_COMPLETE-2021-01-03T04:26:10.700Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "Instance",
+            "PhysicalResourceId": "i-031f8db486c4b3616",
+            "ResourceType": "AWS::EC2::Instance",
+            "Timestamp": "2021-01-03T04:26:10.700000+00:00",
+            "ResourceStatus": "DELETE_COMPLETE",
+            "ResourceProperties": "{\"UserData\":\"IyEvYmluL2Jhc2ggLXhlCgojIHNlbmQgc2NyaXB0IG91dHB1dCB0byAvdG1wIHNvIHdlIGNhbiBkZWJ1ZyBib290IGZhaWx1cmVzCmV4ZWMgPiAvdG1wL3VzZXJkYXRhLmxvZyAyPiYxIAoKIyBVcGRhdGUgYWxsIHBhY2thZ2VzCnl1bSAteSB1cGRhdGUKCiMgR2V0IGxhdGVzdCBjZm4gc2NyaXB0czsgaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL0FXU0Nsb3VkRm9ybWF0aW9uL2xhdGVzdC9Vc2VyR3VpZGUvYmVzdC1wcmFjdGljZXMuaHRtbCNjZm5pbml0Cnl1bSBpbnN0YWxsIC15IGF3cy1jZm4tYm9vdHN0cmFwCgojIEhhdmUgQ2xvdWRGb3JtYXRpb24gaW5zdGFsbCBhbnkgZmlsZXMgYW5kIHBhY2thZ2VzIGZyb20gdGhlIG1ldGFkYXRhCi9vcHQvYXdzL2Jpbi9jZm4taW5pdCAtdiAtLXN0YWNrIGF3c2Jvb3RzdHJhcGxvY2FsIC0tcmVnaW9uIGFwLW5vcnRoZWFzdC0xIC0tcmVzb3VyY2UgSW5zdGFuY2UgCgpjYXQgPiAvdG1wL2luc3RhbGxfc2NyaXB0LnNoIDw8IEVPRiAKICAjIFNUQVJUCiAgZWNobyAiU2V0dGluZyB1cCBOb2RlSlMgRW52aXJvbm1lbnQiCiAgY3VybCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbnZtLXNoL252bS92MC4zNC4wL2luc3RhbGwuc2ggfCBiYXNoCgogICMgRG90IHNvdXJjZSB0aGUgZmlsZXMgdG8gZW5zdXJlIHRoYXQgdmFyaWFibGVzIGFyZSBhdmFpbGFibGUgd2l0aGluIHRoZSBjdXJyZW50IHNoZWxsCiAgLiAvaG9tZS9lYzItdXNlci8ubnZtL252bS5zaAogIC4gL2hvbWUvZWMyLXVzZXIvLmJhc2hyYwoKICAjIEluc3RhbGwgTlZNLCBOUE0sIE5vZGUuSlMKICBudm0gYWxpYXMgZGVmYXVsdCB2MTIuNy4wCiAgbnZtIGluc3RhbGwgdjEyLjcuMAogIG52bSB1c2UgdjEyLjcuMAoKICAjIERvd25sb2FkIGxhdGVzdCBjb2RlLCB1bnppcCBpdCBpbnRvIC9ob21lL2VjMi11c2VyL2FwcAogIHdnZXQgaHR0cHM6Ly9naXRodWIuY29tL0Fyc2VuODg0OC9hd3MtYm9vdHN0cmFwLWxvY2FsL2FyY2hpdmUvbWFzdGVyLnppcCAKICB1bnppcCBtYXN0ZXIuemlwCiAgbXYgYXdzLWJvb3RzdHJhcDItbWFzdGVyIGFwcAoKICAjIENyZWF0ZSBsb2cgZGlyZWN0b3J5CiAgbWtkaXIgLXAgL2hvbWUvZWMyLXVzZXIvYXBwL2xvZ3MKCiAgIyBSdW4gc2VydmVyCiAgY2QgYXBwCiAgbnBtIGluc3RhbGwKICBucG0gc3RhcnQKRU9GCgpjaG93biBlYzItdXNlcjplYzItdXNlciAvdG1wL2luc3RhbGxfc2NyaXB0LnNoICYmIGNobW9kIGEreCAvdG1wL2luc3RhbGxfc2NyaXB0LnNoCnNsZWVwIDE7IHN1IC0gZWMyLXVzZXIgLWMgIi90bXAvaW5zdGFsbF9zY3JpcHQuc2giIAoKIyBTaWduYWwgdG8gQ2xvdWRGb3JtYXRpb24gdGhhdCB0aGUgaW5zdGFuY2UgaXMgcmVhZHkKL29wdC9hd3MvYmluL2Nmbi1zaWduYWwgLWUgJD8gLS1zdGFjayBhd3Nib290c3RyYXBsb2NhbCAtLXJlZ2lvbiBhcC1ub3J0aGVhc3QtMSAtLXJlc291cmNlIEluc3RhbmNlIAo=\",\"ImageId\":\"ami-01748a72bed07727c\",\"IamInstanceProfile\":\"awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R\",\"InstanceType\":\"t2.micro\",\"SecurityGroupIds\":[\"sg-0b8abbe679993c2cf\"],\"Monitoring\":\"true\",\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "Instance-DELETE_IN_PROGRESS-2021-01-03T04:25:40.147Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "Instance",
+            "PhysicalResourceId": "i-031f8db486c4b3616",
+            "ResourceType": "AWS::EC2::Instance",
+            "Timestamp": "2021-01-03T04:25:40.147000+00:00",
+            "ResourceStatus": "DELETE_IN_PROGRESS",
+            "ResourceProperties": "{\"UserData\":\"IyEvYmluL2Jhc2ggLXhlCgojIHNlbmQgc2NyaXB0IG91dHB1dCB0byAvdG1wIHNvIHdlIGNhbiBkZWJ1ZyBib290IGZhaWx1cmVzCmV4ZWMgPiAvdG1wL3VzZXJkYXRhLmxvZyAyPiYxIAoKIyBVcGRhdGUgYWxsIHBhY2thZ2VzCnl1bSAteSB1cGRhdGUKCiMgR2V0IGxhdGVzdCBjZm4gc2NyaXB0czsgaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL0FXU0Nsb3VkRm9ybWF0aW9uL2xhdGVzdC9Vc2VyR3VpZGUvYmVzdC1wcmFjdGljZXMuaHRtbCNjZm5pbml0Cnl1bSBpbnN0YWxsIC15IGF3cy1jZm4tYm9vdHN0cmFwCgojIEhhdmUgQ2xvdWRGb3JtYXRpb24gaW5zdGFsbCBhbnkgZmlsZXMgYW5kIHBhY2thZ2VzIGZyb20gdGhlIG1ldGFkYXRhCi9vcHQvYXdzL2Jpbi9jZm4taW5pdCAtdiAtLXN0YWNrIGF3c2Jvb3RzdHJhcGxvY2FsIC0tcmVnaW9uIGFwLW5vcnRoZWFzdC0xIC0tcmVzb3VyY2UgSW5zdGFuY2UgCgpjYXQgPiAvdG1wL2luc3RhbGxfc2NyaXB0LnNoIDw8IEVPRiAKICAjIFNUQVJUCiAgZWNobyAiU2V0dGluZyB1cCBOb2RlSlMgRW52aXJvbm1lbnQiCiAgY3VybCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbnZtLXNoL252bS92MC4zNC4wL2luc3RhbGwuc2ggfCBiYXNoCgogICMgRG90IHNvdXJjZSB0aGUgZmlsZXMgdG8gZW5zdXJlIHRoYXQgdmFyaWFibGVzIGFyZSBhdmFpbGFibGUgd2l0aGluIHRoZSBjdXJyZW50IHNoZWxsCiAgLiAvaG9tZS9lYzItdXNlci8ubnZtL252bS5zaAogIC4gL2hvbWUvZWMyLXVzZXIvLmJhc2hyYwoKICAjIEluc3RhbGwgTlZNLCBOUE0sIE5vZGUuSlMKICBudm0gYWxpYXMgZGVmYXVsdCB2MTIuNy4wCiAgbnZtIGluc3RhbGwgdjEyLjcuMAogIG52bSB1c2UgdjEyLjcuMAoKICAjIERvd25sb2FkIGxhdGVzdCBjb2RlLCB1bnppcCBpdCBpbnRvIC9ob21lL2VjMi11c2VyL2FwcAogIHdnZXQgaHR0cHM6Ly9naXRodWIuY29tL0Fyc2VuODg0OC9hd3MtYm9vdHN0cmFwLWxvY2FsL2FyY2hpdmUvbWFzdGVyLnppcCAKICB1bnppcCBtYXN0ZXIuemlwCiAgbXYgYXdzLWJvb3RzdHJhcDItbWFzdGVyIGFwcAoKICAjIENyZWF0ZSBsb2cgZGlyZWN0b3J5CiAgbWtkaXIgLXAgL2hvbWUvZWMyLXVzZXIvYXBwL2xvZ3MKCiAgIyBSdW4gc2VydmVyCiAgY2QgYXBwCiAgbnBtIGluc3RhbGwKICBucG0gc3RhcnQKRU9GCgpjaG93biBlYzItdXNlcjplYzItdXNlciAvdG1wL2luc3RhbGxfc2NyaXB0LnNoICYmIGNobW9kIGEreCAvdG1wL2luc3RhbGxfc2NyaXB0LnNoCnNsZWVwIDE7IHN1IC0gZWMyLXVzZXIgLWMgIi90bXAvaW5zdGFsbF9zY3JpcHQuc2giIAoKIyBTaWduYWwgdG8gQ2xvdWRGb3JtYXRpb24gdGhhdCB0aGUgaW5zdGFuY2UgaXMgcmVhZHkKL29wdC9hd3MvYmluL2Nmbi1zaWduYWwgLWUgJD8gLS1zdGFjayBhd3Nib290c3RyYXBsb2NhbCAtLXJlZ2lvbiBhcC1ub3J0aGVhc3QtMSAtLXJlc291cmNlIEluc3RhbmNlIAo=\",\"ImageId\":\"ami-01748a72bed07727c\",\"IamInstanceProfile\":\"awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R\",\"InstanceType\":\"t2.micro\",\"SecurityGroupIds\":[\"sg-0b8abbe679993c2cf\"],\"Monitoring\":\"true\",\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "ba707360-4d7b-11eb-9e67-0ef265568f37",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "awsbootstraplocal",
+            "PhysicalResourceId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2021-01-03T04:25:36.905000+00:00",
+            "ResourceStatus": "ROLLBACK_IN_PROGRESS",
+            "ResourceStatusReason": "The following resource(s) failed to create: [Instance]. Rollback requested by user."
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "Instance-CREATE_FAILED-2021-01-03T04:25:36.093Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "Instance",
+            "PhysicalResourceId": "i-031f8db486c4b3616",
+            "ResourceType": "AWS::EC2::Instance",
+            "Timestamp": "2021-01-03T04:25:36.093000+00:00",
+            "ResourceStatus": "CREATE_FAILED",
+            "ResourceStatusReason": "Failed to receive 1 resource signal(s) within the specified duration",
+            "ResourceProperties": "{\"UserData\":\"IyEvYmluL2Jhc2ggLXhlCgojIHNlbmQgc2NyaXB0IG91dHB1dCB0byAvdG1wIHNvIHdlIGNhbiBkZWJ1ZyBib290IGZhaWx1cmVzCmV4ZWMgPiAvdG1wL3VzZXJkYXRhLmxvZyAyPiYxIAoKIyBVcGRhdGUgYWxsIHBhY2thZ2VzCnl1bSAteSB1cGRhdGUKCiMgR2V0IGxhdGVzdCBjZm4gc2NyaXB0czsgaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL0FXU0Nsb3VkRm9ybWF0aW9uL2xhdGVzdC9Vc2VyR3VpZGUvYmVzdC1wcmFjdGljZXMuaHRtbCNjZm5pbml0Cnl1bSBpbnN0YWxsIC15IGF3cy1jZm4tYm9vdHN0cmFwCgojIEhhdmUgQ2xvdWRGb3JtYXRpb24gaW5zdGFsbCBhbnkgZmlsZXMgYW5kIHBhY2thZ2VzIGZyb20gdGhlIG1ldGFkYXRhCi9vcHQvYXdzL2Jpbi9jZm4taW5pdCAtdiAtLXN0YWNrIGF3c2Jvb3RzdHJhcGxvY2FsIC0tcmVnaW9uIGFwLW5vcnRoZWFzdC0xIC0tcmVzb3VyY2UgSW5zdGFuY2UgCgpjYXQgPiAvdG1wL2luc3RhbGxfc2NyaXB0LnNoIDw8IEVPRiAKICAjIFNUQVJUCiAgZWNobyAiU2V0dGluZyB1cCBOb2RlSlMgRW52aXJvbm1lbnQiCiAgY3VybCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbnZtLXNoL252bS92MC4zNC4wL2luc3RhbGwuc2ggfCBiYXNoCgogICMgRG90IHNvdXJjZSB0aGUgZmlsZXMgdG8gZW5zdXJlIHRoYXQgdmFyaWFibGVzIGFyZSBhdmFpbGFibGUgd2l0aGluIHRoZSBjdXJyZW50IHNoZWxsCiAgLiAvaG9tZS9lYzItdXNlci8ubnZtL252bS5zaAogIC4gL2hvbWUvZWMyLXVzZXIvLmJhc2hyYwoKICAjIEluc3RhbGwgTlZNLCBOUE0sIE5vZGUuSlMKICBudm0gYWxpYXMgZGVmYXVsdCB2MTIuNy4wCiAgbnZtIGluc3RhbGwgdjEyLjcuMAogIG52bSB1c2UgdjEyLjcuMAoKICAjIERvd25sb2FkIGxhdGVzdCBjb2RlLCB1bnppcCBpdCBpbnRvIC9ob21lL2VjMi11c2VyL2FwcAogIHdnZXQgaHR0cHM6Ly9naXRodWIuY29tL0Fyc2VuODg0OC9hd3MtYm9vdHN0cmFwLWxvY2FsL2FyY2hpdmUvbWFzdGVyLnppcCAKICB1bnppcCBtYXN0ZXIuemlwCiAgbXYgYXdzLWJvb3RzdHJhcDItbWFzdGVyIGFwcAoKICAjIENyZWF0ZSBsb2cgZGlyZWN0b3J5CiAgbWtkaXIgLXAgL2hvbWUvZWMyLXVzZXIvYXBwL2xvZ3MKCiAgIyBSdW4gc2VydmVyCiAgY2QgYXBwCiAgbnBtIGluc3RhbGwKICBucG0gc3RhcnQKRU9GCgpjaG93biBlYzItdXNlcjplYzItdXNlciAvdG1wL2luc3RhbGxfc2NyaXB0LnNoICYmIGNobW9kIGEreCAvdG1wL2luc3RhbGxfc2NyaXB0LnNoCnNsZWVwIDE7IHN1IC0gZWMyLXVzZXIgLWMgIi90bXAvaW5zdGFsbF9zY3JpcHQuc2giIAoKIyBTaWduYWwgdG8gQ2xvdWRGb3JtYXRpb24gdGhhdCB0aGUgaW5zdGFuY2UgaXMgcmVhZHkKL29wdC9hd3MvYmluL2Nmbi1zaWduYWwgLWUgJD8gLS1zdGFjayBhd3Nib290c3RyYXBsb2NhbCAtLXJlZ2lvbiBhcC1ub3J0aGVhc3QtMSAtLXJlc291cmNlIEluc3RhbmNlIAo=\",\"ImageId\":\"ami-01748a72bed07727c\",\"IamInstanceProfile\":\"awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R\",\"InstanceType\":\"t2.micro\",\"SecurityGroupIds\":[\"sg-0b8abbe679993c2cf\"],\"Monitoring\":\"true\",\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "Instance-CREATE_IN_PROGRESS-2021-01-03T04:10:01.517Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "Instance",
+            "PhysicalResourceId": "i-031f8db486c4b3616",
+            "ResourceType": "AWS::EC2::Instance",
+            "Timestamp": "2021-01-03T04:10:01.517000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"UserData\":\"IyEvYmluL2Jhc2ggLXhlCgojIHNlbmQgc2NyaXB0IG91dHB1dCB0byAvdG1wIHNvIHdlIGNhbiBkZWJ1ZyBib290IGZhaWx1cmVzCmV4ZWMgPiAvdG1wL3VzZXJkYXRhLmxvZyAyPiYxIAoKIyBVcGRhdGUgYWxsIHBhY2thZ2VzCnl1bSAteSB1cGRhdGUKCiMgR2V0IGxhdGVzdCBjZm4gc2NyaXB0czsgaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL0FXU0Nsb3VkRm9ybWF0aW9uL2xhdGVzdC9Vc2VyR3VpZGUvYmVzdC1wcmFjdGljZXMuaHRtbCNjZm5pbml0Cnl1bSBpbnN0YWxsIC15IGF3cy1jZm4tYm9vdHN0cmFwCgojIEhhdmUgQ2xvdWRGb3JtYXRpb24gaW5zdGFsbCBhbnkgZmlsZXMgYW5kIHBhY2thZ2VzIGZyb20gdGhlIG1ldGFkYXRhCi9vcHQvYXdzL2Jpbi9jZm4taW5pdCAtdiAtLXN0YWNrIGF3c2Jvb3RzdHJhcGxvY2FsIC0tcmVnaW9uIGFwLW5vcnRoZWFzdC0xIC0tcmVzb3VyY2UgSW5zdGFuY2UgCgpjYXQgPiAvdG1wL2luc3RhbGxfc2NyaXB0LnNoIDw8IEVPRiAKICAjIFNUQVJUCiAgZWNobyAiU2V0dGluZyB1cCBOb2RlSlMgRW52aXJvbm1lbnQiCiAgY3VybCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbnZtLXNoL252bS92MC4zNC4wL2luc3RhbGwuc2ggfCBiYXNoCgogICMgRG90IHNvdXJjZSB0aGUgZmlsZXMgdG8gZW5zdXJlIHRoYXQgdmFyaWFibGVzIGFyZSBhdmFpbGFibGUgd2l0aGluIHRoZSBjdXJyZW50IHNoZWxsCiAgLiAvaG9tZS9lYzItdXNlci8ubnZtL252bS5zaAogIC4gL2hvbWUvZWMyLXVzZXIvLmJhc2hyYwoKICAjIEluc3RhbGwgTlZNLCBOUE0sIE5vZGUuSlMKICBudm0gYWxpYXMgZGVmYXVsdCB2MTIuNy4wCiAgbnZtIGluc3RhbGwgdjEyLjcuMAogIG52bSB1c2UgdjEyLjcuMAoKICAjIERvd25sb2FkIGxhdGVzdCBjb2RlLCB1bnppcCBpdCBpbnRvIC9ob21lL2VjMi11c2VyL2FwcAogIHdnZXQgaHR0cHM6Ly9naXRodWIuY29tL0Fyc2VuODg0OC9hd3MtYm9vdHN0cmFwLWxvY2FsL2FyY2hpdmUvbWFzdGVyLnppcCAKICB1bnppcCBtYXN0ZXIuemlwCiAgbXYgYXdzLWJvb3RzdHJhcDItbWFzdGVyIGFwcAoKICAjIENyZWF0ZSBsb2cgZGlyZWN0b3J5CiAgbWtkaXIgLXAgL2hvbWUvZWMyLXVzZXIvYXBwL2xvZ3MKCiAgIyBSdW4gc2VydmVyCiAgY2QgYXBwCiAgbnBtIGluc3RhbGwKICBucG0gc3RhcnQKRU9GCgpjaG93biBlYzItdXNlcjplYzItdXNlciAvdG1wL2luc3RhbGxfc2NyaXB0LnNoICYmIGNobW9kIGEreCAvdG1wL2luc3RhbGxfc2NyaXB0LnNoCnNsZWVwIDE7IHN1IC0gZWMyLXVzZXIgLWMgIi90bXAvaW5zdGFsbF9zY3JpcHQuc2giIAoKIyBTaWduYWwgdG8gQ2xvdWRGb3JtYXRpb24gdGhhdCB0aGUgaW5zdGFuY2UgaXMgcmVhZHkKL29wdC9hd3MvYmluL2Nmbi1zaWduYWwgLWUgJD8gLS1zdGFjayBhd3Nib290c3RyYXBsb2NhbCAtLXJlZ2lvbiBhcC1ub3J0aGVhc3QtMSAtLXJlc291cmNlIEluc3RhbmNlIAo=\",\"ImageId\":\"ami-01748a72bed07727c\",\"IamInstanceProfile\":\"awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R\",\"InstanceType\":\"t2.micro\",\"SecurityGroupIds\":[\"sg-0b8abbe679993c2cf\"],\"Monitoring\":\"true\",\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "Instance-CREATE_IN_PROGRESS-2021-01-03T04:09:59.504Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "Instance",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::EC2::Instance",
+            "Timestamp": "2021-01-03T04:09:59.504000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"UserData\":\"IyEvYmluL2Jhc2ggLXhlCgojIHNlbmQgc2NyaXB0IG91dHB1dCB0byAvdG1wIHNvIHdlIGNhbiBkZWJ1ZyBib290IGZhaWx1cmVzCmV4ZWMgPiAvdG1wL3VzZXJkYXRhLmxvZyAyPiYxIAoKIyBVcGRhdGUgYWxsIHBhY2thZ2VzCnl1bSAteSB1cGRhdGUKCiMgR2V0IGxhdGVzdCBjZm4gc2NyaXB0czsgaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL0FXU0Nsb3VkRm9ybWF0aW9uL2xhdGVzdC9Vc2VyR3VpZGUvYmVzdC1wcmFjdGljZXMuaHRtbCNjZm5pbml0Cnl1bSBpbnN0YWxsIC15IGF3cy1jZm4tYm9vdHN0cmFwCgojIEhhdmUgQ2xvdWRGb3JtYXRpb24gaW5zdGFsbCBhbnkgZmlsZXMgYW5kIHBhY2thZ2VzIGZyb20gdGhlIG1ldGFkYXRhCi9vcHQvYXdzL2Jpbi9jZm4taW5pdCAtdiAtLXN0YWNrIGF3c2Jvb3RzdHJhcGxvY2FsIC0tcmVnaW9uIGFwLW5vcnRoZWFzdC0xIC0tcmVzb3VyY2UgSW5zdGFuY2UgCgpjYXQgPiAvdG1wL2luc3RhbGxfc2NyaXB0LnNoIDw8IEVPRiAKICAjIFNUQVJUCiAgZWNobyAiU2V0dGluZyB1cCBOb2RlSlMgRW52aXJvbm1lbnQiCiAgY3VybCBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbnZtLXNoL252bS92MC4zNC4wL2luc3RhbGwuc2ggfCBiYXNoCgogICMgRG90IHNvdXJjZSB0aGUgZmlsZXMgdG8gZW5zdXJlIHRoYXQgdmFyaWFibGVzIGFyZSBhdmFpbGFibGUgd2l0aGluIHRoZSBjdXJyZW50IHNoZWxsCiAgLiAvaG9tZS9lYzItdXNlci8ubnZtL252bS5zaAogIC4gL2hvbWUvZWMyLXVzZXIvLmJhc2hyYwoKICAjIEluc3RhbGwgTlZNLCBOUE0sIE5vZGUuSlMKICBudm0gYWxpYXMgZGVmYXVsdCB2MTIuNy4wCiAgbnZtIGluc3RhbGwgdjEyLjcuMAogIG52bSB1c2UgdjEyLjcuMAoKICAjIERvd25sb2FkIGxhdGVzdCBjb2RlLCB1bnppcCBpdCBpbnRvIC9ob21lL2VjMi11c2VyL2FwcAogIHdnZXQgaHR0cHM6Ly9naXRodWIuY29tL0Fyc2VuODg0OC9hd3MtYm9vdHN0cmFwLWxvY2FsL2FyY2hpdmUvbWFzdGVyLnppcCAKICB1bnppcCBtYXN0ZXIuemlwCiAgbXYgYXdzLWJvb3RzdHJhcDItbWFzdGVyIGFwcAoKICAjIENyZWF0ZSBsb2cgZGlyZWN0b3J5CiAgbWtkaXIgLXAgL2hvbWUvZWMyLXVzZXIvYXBwL2xvZ3MKCiAgIyBSdW4gc2VydmVyCiAgY2QgYXBwCiAgbnBtIGluc3RhbGwKICBucG0gc3RhcnQKRU9GCgpjaG93biBlYzItdXNlcjplYzItdXNlciAvdG1wL2luc3RhbGxfc2NyaXB0LnNoICYmIGNobW9kIGEreCAvdG1wL2luc3RhbGxfc2NyaXB0LnNoCnNsZWVwIDE7IHN1IC0gZWMyLXVzZXIgLWMgIi90bXAvaW5zdGFsbF9zY3JpcHQuc2giIAoKIyBTaWduYWwgdG8gQ2xvdWRGb3JtYXRpb24gdGhhdCB0aGUgaW5zdGFuY2UgaXMgcmVhZHkKL29wdC9hd3MvYmluL2Nmbi1zaWduYWwgLWUgJD8gLS1zdGFjayBhd3Nib290c3RyYXBsb2NhbCAtLXJlZ2lvbiBhcC1ub3J0aGVhc3QtMSAtLXJlc291cmNlIEluc3RhbmNlIAo=\",\"ImageId\":\"ami-01748a72bed07727c\",\"IamInstanceProfile\":\"awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R\",\"InstanceType\":\"t2.micro\",\"SecurityGroupIds\":[\"sg-0b8abbe679993c2cf\"],\"Monitoring\":\"true\",\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceProfile-CREATE_COMPLETE-2021-01-03T04:09:57.572Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceProfile",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R",
+            "ResourceType": "AWS::IAM::InstanceProfile",
+            "Timestamp": "2021-01-03T04:09:57.572000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"Roles\":[\"awsbootstraplocal-InstanceRole-4MADEI47NRH5\"]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceProfile-CREATE_IN_PROGRESS-2021-01-03T04:07:56.877Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceProfile",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceProfile-12TG0K5VFAC9R",
+            "ResourceType": "AWS::IAM::InstanceProfile",
+            "Timestamp": "2021-01-03T04:07:56.877000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"Roles\":[\"awsbootstraplocal-InstanceRole-4MADEI47NRH5\"]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceProfile-CREATE_IN_PROGRESS-2021-01-03T04:07:55.679Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceProfile",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::IAM::InstanceProfile",
+            "Timestamp": "2021-01-03T04:07:55.679000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"Roles\":[\"awsbootstraplocal-InstanceRole-4MADEI47NRH5\"]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceRole-CREATE_COMPLETE-2021-01-03T04:07:53.523Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceRole",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceRole-4MADEI47NRH5",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2021-01-03T04:07:53.523000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/CloudWatchFullAccess\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}},\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "SecurityGroup-CREATE_COMPLETE-2021-01-03T04:07:38.794Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "SecurityGroup",
+            "PhysicalResourceId": "awsbootstraplocal-SecurityGroup-1RPKSIR0SKDJY",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "Timestamp": "2021-01-03T04:07:38.794000+00:00",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "ResourceProperties": "{\"GroupDescription\":\"Internal Security group for awsbootstraplocal\",\"SecurityGroupIngress\":[{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"8080\",\"ToPort\":\"8080\",\"IpProtocol\":\"tcp\"},{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"22\",\"ToPort\":\"22\",\"IpProtocol\":\"tcp\"}],\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "SecurityGroup-CREATE_IN_PROGRESS-2021-01-03T04:07:38.065Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "SecurityGroup",
+            "PhysicalResourceId": "awsbootstraplocal-SecurityGroup-1RPKSIR0SKDJY",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "Timestamp": "2021-01-03T04:07:38.065000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"GroupDescription\":\"Internal Security group for awsbootstraplocal\",\"SecurityGroupIngress\":[{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"8080\",\"ToPort\":\"8080\",\"IpProtocol\":\"tcp\"},{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"22\",\"ToPort\":\"22\",\"IpProtocol\":\"tcp\"}],\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceRole-CREATE_IN_PROGRESS-2021-01-03T04:07:33.563Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceRole",
+            "PhysicalResourceId": "awsbootstraplocal-InstanceRole-4MADEI47NRH5",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2021-01-03T04:07:33.563000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "Resource creation Initiated",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/CloudWatchFullAccess\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}},\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "SecurityGroup-CREATE_IN_PROGRESS-2021-01-03T04:07:33.239Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "SecurityGroup",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::EC2::SecurityGroup",
+            "Timestamp": "2021-01-03T04:07:33.239000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"GroupDescription\":\"Internal Security group for awsbootstraplocal\",\"SecurityGroupIngress\":[{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"8080\",\"ToPort\":\"8080\",\"IpProtocol\":\"tcp\"},{\"CidrIp\":\"0.0.0.0/0\",\"FromPort\":\"22\",\"ToPort\":\"22\",\"IpProtocol\":\"tcp\"}],\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "InstanceRole-CREATE_IN_PROGRESS-2021-01-03T04:07:33.109Z",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "InstanceRole",
+            "PhysicalResourceId": "",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2021-01-03T04:07:33.109000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceProperties": "{\"ManagedPolicyArns\":[\"arn:aws:iam::aws:policy/CloudWatchFullAccess\"],\"AssumeRolePolicyDocument\":{\"Version\":\"2012-10-17\",\"Statement\":{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":[\"ec2.amazonaws.com\"]}}},\"Tags\":[{\"Value\":\"awsbootstraplocal\",\"Key\":\"Name\"}]}"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "319c23b0-4d79-11eb-8e46-0a79d1603d7e",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "awsbootstraplocal",
+            "PhysicalResourceId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2021-01-03T04:07:28.339000+00:00",
+            "ResourceStatus": "CREATE_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        },
+        {
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "EventId": "2e28cee0-4d79-11eb-93f4-0a949fc6e0c6",
+            "StackName": "awsbootstraplocal",
+            "LogicalResourceId": "awsbootstraplocal",
+            "PhysicalResourceId": "arn:aws:cloudformation:ap-northeast-1:703985768081:stack/awsbootstraplocal/2e296b20-4d79-11eb-93f4-0a949fc6e0c6",
+            "ResourceType": "AWS::CloudFormation::Stack",
+            "Timestamp": "2021-01-03T04:07:22.943000+00:00",
+            "ResourceStatus": "REVIEW_IN_PROGRESS",
+            "ResourceStatusReason": "User Initiated"
+        }
+    ]
+}
